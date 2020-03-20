@@ -3,6 +3,13 @@ public class Persona {
     protected String ocupacion;
     protected int edad;
 
+    public Persona(String nombre, int edad, String ocupacion){
+        this.nombre = nombre;
+        this.ocupacion = ocupacion;
+        this.edad = edad;
+
+    }
+
     public void comer() {
         System.out.println("Ñom Ñom comida casera");
     }
@@ -12,6 +19,6 @@ public class Persona {
     }
 
     public String hacerLoSuyo() {
-        return "";
+        return "Aquí en cuarentena de pana banana";
     }
 }
